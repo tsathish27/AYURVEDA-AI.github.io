@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <style>
+        *{
+    margin: 0;
+    box-sizing: border-box;
+    
+ }
+ .home{
+    background-image: linear-gradient( to right,greenyellow,white);
+    height: fit-content;
+    width: 1440;
+ }
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.image-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.image-button img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius:5%;
+}
+.image-button span {
+  margin-top: 5px;
+}
+image-button img:hover{
+  transform: scale(20px 30px);
+   
+}
+    </style>
+</head>
+
+<body>
+    <div class="home">
+        <header>
+            <h1>Explore</h1>
+        </header>
+        
+        <div class="image-buttons-container">
+            <div class="image-button">
+              <a href="article1.html"><img src="img/btn1.jpg" alt="Image 1"></a> 
+              <span>research-paper 1</span>
+            </div>
+            <div class="image-button">
+                <a href="article2.html"><img src="img/btn2.jpg" alt="Image 1"></a> 
+                <span>research-paper 2 </span>
+              </div>
+            <div class="image-button">
+                <a href="article3.html"><img src="img/btn3.avif" alt="Image 1"></a> 
+                <span>research-paper 3</span>
+              </div>
+              <div class="image-button">
+                <a href="article4.html"><img src="img/btn4.jpg" alt="Image 1"></a> 
+                <span>research-paper 4</span>
+              </div>
+              <div class="image-button">
+                <a href="article5.html"><img src="img/btn5.jpg" alt="Image 1"></a> 
+                <span>research-paper 5</span>
+              </div>
+              <div class="image-button">
+                <a href="article6.html"><img src="img/btn6.jpg" alt="Image 1"></a> 
+                <span>research-paper 6</span>
+              </div>
+              <div class="image-button">
+                <a href="article7.html"><img src="img/btn7.jpg" alt="Image 1"></a> 
+                <span>research-paper 7</span>
+              </div>
+              <div class="image-button">
+                <a href="article8.html"><img src="img/btn8.jpg" alt="Image 1"></a> 
+                <span>research-paper 8</span>
+              </div>
+              <div class="image-button">
+                <a href="article9.html"><img src="img/btn9.jpg" alt="Image 1"></a> 
+                <span>research-paper 9</span>
+              </div>
+             
+            <!-- Add more image buttons as needed -->
+          </div>
+
+
+
+
+
+
+
+    </div>
+
+    <div id="chatbot-container"></div>
+ 
+    
+    <script src="script.js"></script>
+    <script id="chatbotkit-widget" src="https://static.chatbotkit.com/integrations/widget/v2.js"
+      data-widget="clhsplsmu004xsd0hsx8faxx7"></script>
+     
+    
+</body>
+</html>
